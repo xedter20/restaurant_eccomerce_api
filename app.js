@@ -63,7 +63,11 @@ app.use(morgan('dev'));
 app.use(cookieParser());
 app.use(
   cors({
+<<<<<<< HEAD
     origin: ['https://ecommerce-restaurant.onrender.com'],
+=======
+    origin: ['http://localhost:3000'],
+>>>>>>> e3cb9d627f5f2e8d4a4eb8dfe8be04f5e4250edf
     method: ['POST', 'GET'],
     credentials: true
   })
