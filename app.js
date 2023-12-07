@@ -61,6 +61,7 @@ mongoose
 // Middleware
 app.use(morgan('dev'));
 app.use(cookieParser());
+// cooment
 app.use(
   cors({
     origin: ['https://ecommerce-restaurant.onrender.com'],
