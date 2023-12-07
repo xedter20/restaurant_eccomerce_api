@@ -24,7 +24,7 @@ const { loginCheck } = require('./middleware/auth');
 const CreateAllFolder = require('./config/uploadFolderCreateScript');
 
 const Chat = require('./models/Chat');
-
+// changes
 var STATIC_CHANNELS = [
   {
     name: 'Global chat',
