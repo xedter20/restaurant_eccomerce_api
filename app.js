@@ -64,7 +64,10 @@ app.use(cookieParser());
 // cooment
 app.use(
   cors({
-    origin: ['https://ecommerce-restaurant.onrender.com'],
+    origin: [
+      'https://ecommerce-restaurant.onrender.com',
+      'http://localhost:3000'
+    ],
     method: ['POST', 'GET'],
     credentials: true
   })
