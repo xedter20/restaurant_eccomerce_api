@@ -48,8 +48,8 @@ CreateAllFolder();
 mongoose
   .connect(process.env.MONGODB_URL, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true
+
+    useUnifiedTopology: true
   })
   .then(() =>
     console.log(
@@ -65,8 +65,8 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      'https://ecommerce-restaurant.onrender.com',
-      'http://localhost:3000'
+      'https://ecommerce-restaurant.onrender12345.com',
+      'http://localhost1234:3000'
     ],
     method: ['POST', 'GET'],
     credentials: true
